@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+
+# Keep documentation and development fixtures out of source distributions.
+prune docs
+prune notebooks
+prune samples
+prune tests
